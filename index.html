@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="#">
+                <strong>Restaurant Menu</strong>
+            </a>
+        </div>
+        <div class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item" href="#menu">Menu</a>
+                <a class="navbar-item" href="#about">About Us</a>
+            </div>
+        </div>
+    </nav>
+
+   
+    <header class="hero is-light">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">Welcome to My first project</h1>
+                <p class="subtitle">Enjoy our delicious dishes!</p>
+            </div>
+        </div>
+    </header>
+
+   
+    <section class="section" id="menu">
+        <div class="container">
+            <h2 class="title has-text-centered menu-title">Our Menu</h2>
+            <div class="columns is-multiline">
+                
+                <div class="column is-one-third">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="images\1.jpg" alt="Dish 1">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <p class="title is-5">delicous burger/p>
+                            <p class="subtitle is-6">$12</p>
+                            <button class="button is-info modal-button" data-target="#modal1">Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="column is-one-third">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="images\2.jpg" alt="Dish 2">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <p class="title is-5">burger for kids</p>
+                            <p class="subtitle is-6">$15</p>
+                            <button class="button is-info modal-button" data-target="#modal2">Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="column is-one-third">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="images\6.jpg" alt="Dish 2">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <p class="title is-5">burger for kids</p>
+                            <p class="subtitle is-6">$15</p>
+                            <button class="button is-info modal-button" data-target="#modal2">Details</button>
+                        </div>
+                    </div>
+                </div>
+
+               
+                <div class="column is-one-third">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="images\3.jpg" alt="Dish 2">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <p class="title is-5">burger for kids</p>
+                            <p class="subtitle is-6">$15</p>
+                            <button class="button is-info modal-button" data-target="#modal2">Details</button>
+                        </div>
+                    </div>
+                </div>
+
+              
+                <div class="column is-one-third">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="images\4.jpg" alt="Dish 2">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <p class="title is-5">burger for kids</p>
+                            <p class="subtitle is-6">$15</p>
+                            <button class="button is-info modal-button" data-target="#modal2">Details</button>
+                        </div>
+                    </div>
+                </div>
+
+               
+                <div class="column is-one-third">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="images\5.jpg" alt="Dish 3">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <p class="title is-5">spicy burger</p>
+                            <p class="subtitle is-6">$8</p>
+                            <button class="button is-info modal-button" data-target="#modal3">Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <div id="modal1" class="modal">
+        <div class="modal-background"></div>
+        <div class="modal-content">
+            <div class="box">
+                <h3 class="title is-4">Spaghetti Bolognese</h3>
+                <p>A classic Italian pasta dish with a rich tomato and meat sauce.</p>
+                <p><strong>Price:</strong> $12</p>
+            </div>
+        </div>
+        <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+
+    <div id="modal2" class="modal">
+        <div class="modal-background"></div>
+        <div class="modal-content">
+            <div class="box">
+                <h3 class="title is-4">Grilled Chicken</h3>
+                <p>Perfectly grilled chicken served with a side of vegetables.</p>
+                <p><strong>Price:</strong> $15</p>
+            </div>
+        </div>
+        <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+
+    <div id="modal3" class="modal">
+        <div class="modal-background"></div>
+        <div class="modal-content">
+            <div class="box">
+                <h3 class="title is-4">Caesar Salad</h3>
+                <p>Fresh romaine lettuce, croutons, and Parmesan cheese with Caesar dressing.</p>
+                <p><strong>Price:</strong> $8</p>
+            </div>
+        </div>
+        <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+
+    <section class="section">
+        <div class="container">
+         
+            <div class="has-text-centered">
+                <a href="about_me.html" class="button is-primary is-medium">
+                    <span class="icon"> <i class="fas fa-home"></i></span>
+                    
+                    <span>GO TO portfolio </span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>thanks for your attention </p>
+        </div>
+    </footer>
+
+   
+</body>
+</html>

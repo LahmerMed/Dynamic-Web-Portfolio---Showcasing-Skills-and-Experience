@@ -1,0 +1,21 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.menu-title {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.card {
+    margin-bottom: 30px;
+}
+
+.hero-body {
+    text-align: center;
+}
+
+footer.footer {
+    background-color: #f5f5f5;
+    padding: 20px 0;
+}
